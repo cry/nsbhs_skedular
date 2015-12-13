@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Unit Tests | Skedular</title>
+
+	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div style="height: 50px;"></div>
+
+	<div class="container">
+		<div class="col-sm-12">
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<h3 class="panel-title">Unit Tests	</h3>
+				</div>
+				<div class="panel-body" style="margin: 15px">
+					<h3>Date Function</h3>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+
+	var test_runner = function() {
+		var assert = function(test_function, data, expected_result) {
+			var actual_result = test_function(data);
+
+			if(actual_result == expected_result) {
+				return true;
+			}
+
+			return false;
+		}
+	}
+
+	var calculate_due = function(time) {
+
+		if(!time) {
+			return "";
+		}
+		
+		/* Calculate Unix Epoch of time due */
+		var parts = time.split("-");
+		var holder = new Date(Date.UTC(parts[0], parts[1] - 1, parts[2]));
+		var due = Math.round(holder.getTime() / 1000);
+		
+		var now = Math.floor((new Date).getTime()/1000);
+		var days = Math.round(((due-now)/3600/24));
+
+		if(days > 1) {
+			return " — {day} days until due".format({
+				day: days
+			});
+		} else if(days == 1) {
+			return " — <strong>due tomorrow</strong>";
+		} else if(days == 0) {
+			return " — <strong>due today</strong>";
+		} else if(days < 0) {
+			return " — <strong>overdue</strong>";
+		} else {
+			return " - <strong>???</strong>";
+		}
+	}
+
+
+	</script>
+	
+</body>
+</html>

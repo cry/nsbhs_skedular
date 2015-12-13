@@ -1,0 +1,347 @@
+html,body {
+	background-color: #f0f0f0;
+	height: 100%;
+	overflow: hidden;
+	font-color: #ffffff;
+}
+
+ul {
+	margin-left: -20px;
+}
+
+table {
+	table-layout: fixed;
+	-ms-word-break: break-all;
+	     word-break: break-all;
+
+	     // Non standard for webkit
+	     word-break: break-word;
+
+	-webkit-hyphens: auto;
+	   -moz-hyphens: auto;
+	        hyphens: auto;
+}
+
+.wide {
+  width: 50px;
+}
+
+.contents {
+	padding: 20px 15px 20px 35px;
+	width: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.sidebar {
+	width: 260px;
+	text-align: left !important;
+	margin-bottom: 1px;
+}
+
+.center	{
+	text-align: center;
+}
+
+.filler {
+	height: 15px;
+}
+
+.title {
+	padding-left: 20px;
+}
+
+/*****************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************
+
+Welcome Styles
+
+******************************************************************************************************
+******************************************************************************************************
+*****************************************************************************************************/
+
+.welcome {
+	padding-top: 15%;
+} 
+
+.id {
+	text-align: center;
+}
+
+#footerleft {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width:100%;
+	text-align: left;
+	color: #999;
+	padding-left: 15px;
+	padding-bottom: 20px;
+	font-size: 12px;
+	opacity: 0.5;
+}
+
+#footer {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width:100%;
+	text-align: right;
+	color: #999;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	opacity: 0.5;
+}
+
+.status_message {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width:100%;
+	text-align: right;
+	color: #222222;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+@-webkit-keyframes dots {
+    0% { background-position: 0px; }
+    100% { background-position: 50px; }
+}
+
+.ellipsis {
+    background: linear-gradient(to right, white 50%, black 50%);
+    color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: dots 1s infinite steps(4);
+    padding-right: 40px;
+    margin-right: -40px;
+}
+
+/*****************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************
+
+Home Styles
+
+******************************************************************************************************
+******************************************************************************************************
+*****************************************************************************************************/
+
+.home_timetable {
+
+}
+
+.panel-body {
+	padding-bottom: 5px;
+	padding-right: 10px !important;
+}
+
+.class-name {
+	margin-top: 11.5px !important;
+}
+
+@media only screen and (max-device-width: 980px) {
+	.hide_on_mobile {
+		display: none;
+	}
+}
+
+@media only screen and (min-device-width: 981px) {
+	.hide_on_desktop {
+		display: none;
+	}
+}
+
+.card-color {
+  border-left-width: 30px;
+  border-left-color: #C23B22;
+  border-left-style: solid; }
+
+.home_events {
+	
+}
+
+.home_events > h2 {
+	text-align: right;
+}
+
+/*****************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************
+
+Typeahead Styles
+
+******************************************************************************************************
+******************************************************************************************************
+*****************************************************************************************************/
+
+
+.tt-input, /* UPDATE: newer versions use tt-input instead of tt-input */
+.tt-hint {
+    width: 500px;
+    height: 50px;
+    padding: 8px 12px;
+    /*font-size: 24px;*/
+    line-height: 30px;
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 8px;*/
+    outline: none;
+}
+
+.tt-input { /* UPDATE: newer versions use tt-input instead of tt-input */
+    /*box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);*/
+}
+
+.tt-hint {
+    color: #999
+}
+
+.tt-dropdown-menu {
+    width: 500px;
+    max-height: 250px;
+    overflow-y: auto;
+    margin-top: 12px;
+    padding: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    /*border-radius: 8px;*/
+    /*box-shadow: 0 5px 10px rgba(0,0,0,.2);*/
+    text-align: left !important;
+}
+
+.tt-suggestion {
+    padding: 3px 8px;
+    /*font-size: 18px;*/
+    line-height: 24px;
+}
+
+.tt-suggestion.tt-cursor { /* UPDATE: newer versions use .tt-suggestion.tt-cursor */
+    color: #fff;
+    background-color: #9954bb;
+    cursor: pointer;
+
+}
+
+.tt-suggestion p {
+    margin: 0;
+}
+
+@media only screen and (max-device-width: 980px) {
+	.tt-input, .tt-hint, .tt-dropdown-menu {
+		width: 250px;
+	}
+}
+
+/*****************************************************************************************************
+******************************************************************************************************
+******************************************************************************************************
+
+Meny Styles
+
+******************************************************************************************************
+******************************************************************************************************
+*****************************************************************************************************/
+
+.meny {
+	display: none;
+	padding-top: 20px;
+	overflow: auto;
+	background: #333;
+	color: #eee;
+
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+	.meny ul {
+		margin-top: 10px;
+	}
+		.meny ul li {
+			display: inline-block;
+			width: 200px;
+			list-style: none;
+			font-size: 20px;
+			padding: 3px 10px;
+		}
+			.meny ul li:before {
+				content: '-';
+				margin-right: 5px;
+				color: rgba( 255, 255, 255, 0.2 );
+			}
+
+/**
+ * Hint graphic that appears while meny is inactive
+ */
+
+
+.meny-arrow {
+	position: absolute;
+	z-index: 10;
+	opacity: 1;
+	background-color: #f0f0f0;
+
+	width: 15px;
+	height: 100%;
+
+	-webkit-transition: opacity 0.4s ease 0.4s;
+	   -moz-transition: opacity 0.4s ease 0.4s;
+	    -ms-transition: opacity 0.4s ease 0.4s;
+	     -o-transition: opacity 0.4s ease 0.4s;
+	        transition: opacity 0.4s ease 0.4s;
+}
+	.meny-left .meny-arrow {
+		border-left: 35px solid #f0f0f0;
+	}
+	.meny-right .meny-arrow {
+		right: 14px;
+		top: 50%;
+		margin-top: -16px;
+		border-right: 16px solid #333;
+	}
+	.meny-top .meny-arrow {
+		left: 50%;
+		top: 14px;
+		margin-left: -16px;
+		border-top: 16px solid #333;
+	}
+	.meny-bottom .meny-arrow {
+		left: 50%;
+		bottom: 14px;
+		margin-left: -16px;
+		border-bottom: 16px solid #333;
+	}
+	.meny-active .meny-arrow {
+		opacity: 0;
+
+		-webkit-transition: opacity 0.2s ease;
+		   -moz-transition: opacity 0.2s ease;
+		    -ms-transition: opacity 0.2s ease;
+		     -o-transition: opacity 0.2s ease;
+		        transition: opacity 0.2s ease;
+	}
+
+.navicon {
+  position: relative;
+  right: 20px;
+  top: 45px;
+  padding-left: 1.25em;
+}
+.navicon:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1.5em;
+  height: 0.20em;
+  background: black;
+  box-shadow: 
+    0 0.5em 0 0 black,
+    0 1.0em 0 0 black;
+}

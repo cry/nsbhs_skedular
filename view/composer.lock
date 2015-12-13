@@ -1,0 +1,63 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a5dc031bc121a300d9adf6bb7281ef65",
+    "packages": [
+        {
+            "name": "united-prototype/php-ga",
+            "version": "dev-composer",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Fran6co/php-ga.git",
+                "reference": "8ef68c423d53e90837143e35d88ba4b4eb3f5562"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Fran6co/php-ga/zipball/8ef68c423d53e90837143e35d88ba4b4eb3f5562",
+                "reference": "8ef68c423d53e90837143e35d88ba4b4eb3f5562",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "UnitedPrototype\\GoogleAnalytics": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Bachem",
+                    "email": "mail@thomasbachem.com",
+                    "homepage": "http://blog.unitedprototype.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "\"ga.js in PHP\" - Implementation of a generic server-side Google Analytics client in PHP that implements nearly every parameter and tracking feature of the original GA Javascript client.",
+            "homepage": "https://github.com/thomasbachem/php-ga",
+            "keywords": [
+                "analytics",
+                "google",
+                "server"
+            ],
+            "time": "2013-10-06 13:45:38"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "united-prototype/php-ga": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}

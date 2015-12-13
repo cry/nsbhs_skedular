@@ -1,0 +1,173 @@
+2015-04-12 14:18:53,039 CRIT Supervisor running as redacted (no user in config file)
+2015-04-12 14:18:53,068 INFO RPC interface 'supervisor' initialized
+2015-04-12 14:18:53,068 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-12 14:18:53,068 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-12 14:18:53,071 INFO daemonizing the supervisord process
+2015-04-12 14:18:53,071 INFO supervisord started with pid 24297
+2015-04-12 14:18:54,075 INFO spawned: 'Ratchet' with pid 24298
+2015-04-12 14:18:54,109 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:18:55,112 INFO spawned: 'Ratchet' with pid 24299
+2015-04-12 14:18:55,135 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:18:57,139 INFO spawned: 'Ratchet' with pid 24300
+2015-04-12 14:18:57,161 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:19:00,167 INFO spawned: 'Ratchet' with pid 24301
+2015-04-12 14:19:00,195 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:19:01,197 INFO gave up: Ratchet entered FATAL state, too many start retries too quickly
+2015-04-12 14:21:57,351 CRIT Supervisor running as redacted (no user in config file)
+2015-04-12 14:21:57,380 INFO RPC interface 'supervisor' initialized
+2015-04-12 14:21:57,380 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-12 14:21:57,380 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-12 14:21:57,383 INFO daemonizing the supervisord process
+2015-04-12 14:21:57,383 INFO supervisord started with pid 24344
+2015-04-12 14:21:58,387 INFO spawned: 'Ratchet' with pid 24345
+2015-04-12 14:21:58,418 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:21:59,421 INFO spawned: 'Ratchet' with pid 24346
+2015-04-12 14:21:59,444 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:22:01,448 INFO spawned: 'Ratchet' with pid 24348
+2015-04-12 14:22:01,471 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:22:04,476 INFO spawned: 'Ratchet' with pid 24349
+2015-04-12 14:22:04,499 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:22:05,500 INFO gave up: Ratchet entered FATAL state, too many start retries too quickly
+2015-04-12 14:26:45,370 CRIT Supervisor running as redacted (no user in config file)
+2015-04-12 14:26:45,399 INFO RPC interface 'supervisor' initialized
+2015-04-12 14:26:45,399 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-12 14:26:45,399 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-12 14:26:45,401 INFO daemonizing the supervisord process
+2015-04-12 14:26:45,402 INFO supervisord started with pid 24414
+2015-04-12 14:26:46,405 INFO spawned: 'Ratchet' with pid 24415
+2015-04-12 14:26:47,407 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-12 14:44:23,629 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:44:24,633 INFO spawned: 'Ratchet' with pid 24484
+2015-04-12 14:44:25,635 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-12 14:46:05,039 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:46:06,042 INFO spawned: 'Ratchet' with pid 24509
+2015-04-12 14:46:07,045 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-12 14:46:47,607 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:46:48,610 INFO spawned: 'Ratchet' with pid 24543
+2015-04-12 14:46:49,612 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-12 14:47:16,538 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-12 14:47:17,542 INFO spawned: 'Ratchet' with pid 24546
+2015-04-12 14:47:18,544 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-12 14:48:49,160 WARN received SIGTERM indicating exit request
+2015-04-12 14:48:53,426 WARN received SIGTERM indicating exit request
+2015-04-12 14:48:57,539 WARN received SIGTERM indicating exit request
+2015-04-12 14:48:57,541 INFO waiting for Ratchet to die
+2015-04-12 14:48:58,543 INFO stopped: Ratchet (terminated by SIGTERM)
+2015-04-12 14:53:01,914 CRIT Supervisor running as redacted (no user in config file)
+2015-04-12 14:53:01,942 INFO RPC interface 'supervisor' initialized
+2015-04-12 14:53:01,942 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-12 14:53:01,942 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-12 14:53:01,944 INFO daemonizing the supervisord process
+2015-04-12 14:53:01,945 INFO supervisord started with pid 24668
+2015-04-12 14:53:02,948 INFO spawned: 'Ratchet' with pid 24669
+2015-04-12 14:53:03,950 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-12 14:55:15,440 WARN received SIGTERM indicating exit request
+2015-04-12 14:55:15,444 INFO waiting for Ratchet to die
+2015-04-12 14:55:16,445 INFO stopped: Ratchet (terminated by SIGTERM)
+2015-04-12 15:10:37,018 CRIT Supervisor running as redacted (no user in config file)
+2015-04-12 15:10:37,063 INFO RPC interface 'supervisor' initialized
+2015-04-12 15:10:37,063 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-12 15:10:37,064 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-12 15:10:37,068 INFO daemonizing the supervisord process
+2015-04-12 15:10:37,068 INFO supervisord started with pid 32683
+2015-04-12 15:10:38,072 INFO spawned: 'Ratchet' with pid 32684
+2015-04-12 15:10:39,074 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-13 07:14:11,563 WARN received SIGTERM indicating exit request
+2015-04-13 07:14:11,567 INFO waiting for Ratchet to die
+2015-04-13 07:14:11,568 INFO stopped: Ratchet (terminated by SIGTERM)
+2015-04-13 07:23:08,991 CRIT Supervisor running as redacted (no user in config file)
+2015-04-13 07:23:09,024 INFO RPC interface 'supervisor' initialized
+2015-04-13 07:23:09,024 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-13 07:23:09,024 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-13 07:23:09,026 INFO daemonizing the supervisord process
+2015-04-13 07:23:09,027 INFO supervisord started with pid 3191
+2015-04-13 07:23:10,030 INFO spawned: 'Ratchet' with pid 3192
+2015-04-13 07:23:11,032 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-22 11:28:59,867 WARN received SIGTERM indicating exit request
+2015-04-22 11:28:59,873 INFO waiting for Ratchet to die
+2015-04-22 11:28:59,887 INFO stopped: Ratchet (terminated by SIGTERM)
+2015-04-22 11:29:54,486 CRIT Supervisor running as redacted (no user in config file)
+2015-04-22 11:29:54,530 INFO RPC interface 'supervisor' initialized
+2015-04-22 11:29:54,530 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-22 11:29:54,530 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-22 11:29:54,533 INFO daemonizing the supervisord process
+2015-04-22 11:29:54,533 INFO supervisord started with pid 7252
+2015-04-22 11:29:55,537 INFO spawned: 'Ratchet' with pid 7253
+2015-04-22 11:29:56,540 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-23 08:12:54,440 WARN received SIGTERM indicating exit request
+2015-04-23 08:12:54,446 INFO waiting for Ratchet to die
+2015-04-23 08:12:55,447 INFO stopped: Ratchet (terminated by SIGTERM)
+2015-04-23 08:13:08,739 CRIT Supervisor running as redacted (no user in config file)
+2015-04-23 08:13:08,778 INFO RPC interface 'supervisor' initialized
+2015-04-23 08:13:08,778 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-23 08:13:08,778 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-23 08:13:08,782 INFO daemonizing the supervisord process
+2015-04-23 08:13:08,783 INFO supervisord started with pid 20985
+2015-04-23 08:13:09,786 INFO spawned: 'Ratchet' with pid 20986
+2015-04-23 08:13:10,788 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-24 04:32:27,427 CRIT Supervisor running as redacted (no user in config file)
+2015-04-24 04:32:27,457 INFO RPC interface 'supervisor' initialized
+2015-04-24 04:32:27,457 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-24 04:32:27,457 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-24 04:32:27,459 INFO daemonizing the supervisord process
+2015-04-24 04:32:27,459 INFO supervisord started with pid 3324
+2015-04-24 04:32:28,462 INFO spawned: 'Ratchet' with pid 3325
+2015-04-24 04:32:29,464 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-24 14:11:43,113 WARN received SIGTERM indicating exit request
+2015-04-24 14:11:43,119 INFO waiting for Ratchet to die
+2015-04-24 14:11:44,121 INFO stopped: Ratchet (terminated by SIGTERM)
+2015-04-24 14:27:15,311 CRIT Supervisor running as redacted (no user in config file)
+2015-04-24 14:27:15,341 INFO RPC interface 'supervisor' initialized
+2015-04-24 14:27:15,341 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-24 14:27:15,341 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-24 14:27:15,344 INFO daemonizing the supervisord process
+2015-04-24 14:27:15,344 INFO supervisord started with pid 5425
+2015-04-24 14:27:16,347 INFO spawned: 'Ratchet' with pid 5426
+2015-04-24 14:27:17,349 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-24 16:30:26,880 WARN received SIGTERM indicating exit request
+2015-04-24 16:30:26,885 INFO waiting for Ratchet to die
+2015-04-24 16:30:27,887 INFO stopped: Ratchet (terminated by SIGTERM)
+2015-04-24 16:31:05,147 CRIT Supervisor running as redacted (no user in config file)
+2015-04-24 16:31:05,177 INFO RPC interface 'supervisor' initialized
+2015-04-24 16:31:05,177 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-24 16:31:05,177 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-24 16:31:05,179 INFO daemonizing the supervisord process
+2015-04-24 16:31:05,180 INFO supervisord started with pid 6036
+2015-04-24 16:31:06,184 INFO spawned: 'Ratchet' with pid 6037
+2015-04-24 16:31:07,188 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-28 03:58:52,040 INFO exited: Ratchet (terminated by SIGTERM; not expected)
+2015-04-28 03:58:53,046 INFO spawned: 'Ratchet' with pid 26515
+2015-04-28 03:58:53,098 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-28 03:58:54,101 INFO spawned: 'Ratchet' with pid 26520
+2015-04-28 03:58:54,128 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-28 03:58:56,134 INFO spawned: 'Ratchet' with pid 26525
+2015-04-28 03:58:56,161 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-28 03:58:59,169 INFO spawned: 'Ratchet' with pid 26532
+2015-04-28 03:58:59,204 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-28 03:59:00,206 INFO gave up: Ratchet entered FATAL state, too many start retries too quickly
+2015-04-28 03:59:41,409 CRIT Supervisor running as redacted (no user in config file)
+2015-04-28 03:59:41,459 INFO RPC interface 'supervisor' initialized
+2015-04-28 03:59:41,459 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-28 03:59:41,459 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-28 03:59:41,460 INFO daemonizing the supervisord process
+2015-04-28 03:59:41,461 INFO supervisord started with pid 2604
+2015-04-28 03:59:42,467 INFO spawned: 'Ratchet' with pid 2605
+2015-04-28 03:59:44,112 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-04-28 04:13:26,172 INFO exited: Ratchet (terminated by SIGTERM; not expected)
+2015-04-28 04:13:27,177 INFO spawned: 'Ratchet' with pid 3330
+2015-04-28 04:13:27,215 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-28 04:13:28,219 INFO spawned: 'Ratchet' with pid 3335
+2015-04-28 04:13:28,252 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-28 04:13:30,260 INFO spawned: 'Ratchet' with pid 3340
+2015-04-28 04:13:30,284 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-28 04:13:33,293 INFO spawned: 'Ratchet' with pid 3347
+2015-04-28 04:13:33,320 INFO exited: Ratchet (exit status 255; not expected)
+2015-04-28 04:13:34,323 INFO gave up: Ratchet entered FATAL state, too many start retries too quickly
+2015-04-28 04:14:01,467 CRIT Supervisor running as redacted (no user in config file)
+2015-04-28 04:14:01,498 INFO RPC interface 'supervisor' initialized
+2015-04-28 04:14:01,498 WARN cElementTree not installed, using slower XML parser for XML-RPC
+2015-04-28 04:14:01,498 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-04-28 04:14:01,499 INFO daemonizing the supervisord process
+2015-04-28 04:14:01,500 INFO supervisord started with pid 2592
+2015-04-28 04:14:02,504 INFO spawned: 'Ratchet' with pid 2593
+2015-04-28 04:14:03,507 INFO success: Ratchet entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

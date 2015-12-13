@@ -1,0 +1,101 @@
+PHP Warning:  require(logic.php): failed to open stream: No such file or directory in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Fatal error:  require(): Failed opening required 'logic.php' (include_path='.:/usr/share/php:/usr/share/pear') in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Warning:  require(logic.php): failed to open stream: No such file or directory in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Fatal error:  require(): Failed opening required 'logic.php' (include_path='.:/usr/share/php:/usr/share/pear') in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Warning:  require(logic.php): failed to open stream: No such file or directory in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Fatal error:  require(): Failed opening required 'logic.php' (include_path='.:/usr/share/php:/usr/share/pear') in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Warning:  require(logic.php): failed to open stream: No such file or directory in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Fatal error:  require(): Failed opening required 'logic.php' (include_path='.:/usr/share/php:/usr/share/pear') in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Warning:  require(logic.php): failed to open stream: No such file or directory in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Fatal error:  require(): Failed opening required 'logic.php' (include_path='.:/usr/share/php:/usr/share/pear') in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Warning:  require(logic.php): failed to open stream: No such file or directory in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Fatal error:  require(): Failed opening required 'logic.php' (include_path='.:/usr/share/php:/usr/share/pear') in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Warning:  require(logic.php): failed to open stream: No such file or directory in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Fatal error:  require(): Failed opening required 'logic.php' (include_path='.:/usr/share/php:/usr/share/pear') in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Warning:  require(logic.php): failed to open stream: No such file or directory in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Fatal error:  require(): Failed opening required 'logic.php' (include_path='.:/usr/share/php:/usr/share/pear') in /srv/skedular/sync/src/Skedular/Sync.php on line 5
+PHP Fatal error:  Cannot access empty property in /srv/skedular/sync/src/Skedular/Sync.php on line 26
+PHP Fatal error:  Cannot access empty property in /srv/skedular/sync/src/Skedular/Sync.php on line 26
+PHP Fatal error:  Cannot access empty property in /srv/skedular/sync/src/Skedular/Sync.php on line 26
+PHP Fatal error:  Cannot access empty property in /srv/skedular/sync/src/Skedular/Sync.php on line 26
+PHP Notice:  Trying to get property of non-object in /srv/skedular/sync/src/Skedular/logic.php on line 18
+PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?' in /srv/skedular/sync/src/Skedular/dbWrapper.php:16
+Stack trace:
+#0 /srv/skedular/sync/src/Skedular/dbWrapper.php(16): PDO->__construct('pgsql:user=redacted...')
+#1 /srv/skedular/sync/src/Skedular/Logic.php(12): dbWrapper->__construct()
+#2 /srv/skedular/sync/src/Skedular/Sync.php(18): Skedular\Logic->__construct()
+#3 /srv/skedular/sync/sync-server.php(16): Skedular\Sync->__construct()
+#4 {main}
+  thrown in /srv/skedular/sync/src/Skedular/dbWrapper.php on line 16
+PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?' in /srv/skedular/sync/src/Skedular/dbWrapper.php:16
+Stack trace:
+#0 /srv/skedular/sync/src/Skedular/dbWrapper.php(16): PDO->__construct('pgsql:user=redacted...')
+#1 /srv/skedular/sync/src/Skedular/Logic.php(12): dbWrapper->__construct()
+#2 /srv/skedular/sync/src/Skedular/Sync.php(18): Skedular\Logic->__construct()
+#3 /srv/skedular/sync/sync-server.php(16): Skedular\Sync->__construct()
+#4 {main}
+  thrown in /srv/skedular/sync/src/Skedular/dbWrapper.php on line 16
+PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?' in /srv/skedular/sync/src/Skedular/dbWrapper.php:16
+Stack trace:
+#0 /srv/skedular/sync/src/Skedular/dbWrapper.php(16): PDO->__construct('pgsql:user=redacted...')
+#1 /srv/skedular/sync/src/Skedular/Logic.php(12): dbWrapper->__construct()
+#2 /srv/skedular/sync/src/Skedular/Sync.php(18): Skedular\Logic->__construct()
+#3 /srv/skedular/sync/sync-server.php(16): Skedular\Sync->__construct()
+#4 {main}
+  thrown in /srv/skedular/sync/src/Skedular/dbWrapper.php on line 16
+PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not connect to server: No such file or directory
+	Is the server running locally and accepting
+	connections on Unix domain socket "/var/run/postgresql/.s.PGSQL.5432"?' in /srv/skedular/sync/src/Skedular/dbWrapper.php:16
+Stack trace:
+#0 /srv/skedular/sync/src/Skedular/dbWrapper.php(16): PDO->__construct('pgsql:user=redacted...')
+#1 /srv/skedular/sync/src/Skedular/Logic.php(12): dbWrapper->__construct()
+#2 /srv/skedular/sync/src/Skedular/Sync.php(18): Skedular\Logic->__construct()
+#3 /srv/skedular/sync/sync-server.php(16): Skedular\Sync->__construct()
+#4 {main}
+  thrown in /srv/skedular/sync/src/Skedular/dbWrapper.php on line 16
+PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?' in /srv/skedular/sync/src/Skedular/dbWrapper.php:16
+Stack trace:
+#0 /srv/skedular/sync/src/Skedular/dbWrapper.php(16): PDO->__construct('pgsql:host=127....')
+#1 /srv/skedular/sync/src/Skedular/Logic.php(12): dbWrapper->__construct()
+#2 /srv/skedular/sync/src/Skedular/Sync.php(18): Skedular\Logic->__construct()
+#3 /srv/skedular/sync/sync-server.php(16): Skedular\Sync->__construct()
+#4 {main}
+  thrown in /srv/skedular/sync/src/Skedular/dbWrapper.php on line 16
+PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?' in /srv/skedular/sync/src/Skedular/dbWrapper.php:16
+Stack trace:
+#0 /srv/skedular/sync/src/Skedular/dbWrapper.php(16): PDO->__construct('pgsql:host=127....')
+#1 /srv/skedular/sync/src/Skedular/Logic.php(12): dbWrapper->__construct()
+#2 /srv/skedular/sync/src/Skedular/Sync.php(18): Skedular\Logic->__construct()
+#3 /srv/skedular/sync/sync-server.php(16): Skedular\Sync->__construct()
+#4 {main}
+  thrown in /srv/skedular/sync/src/Skedular/dbWrapper.php on line 16
+PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?' in /srv/skedular/sync/src/Skedular/dbWrapper.php:16
+Stack trace:
+#0 /srv/skedular/sync/src/Skedular/dbWrapper.php(16): PDO->__construct('pgsql:host=127....')
+#1 /srv/skedular/sync/src/Skedular/Logic.php(12): dbWrapper->__construct()
+#2 /srv/skedular/sync/src/Skedular/Sync.php(18): Skedular\Logic->__construct()
+#3 /srv/skedular/sync/sync-server.php(16): Skedular\Sync->__construct()
+#4 {main}
+  thrown in /srv/skedular/sync/src/Skedular/dbWrapper.php on line 16
+PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[08006] [7] could not connect to server: Connection refused
+	Is the server running on host "127.0.0.1" and accepting
+	TCP/IP connections on port 5432?' in /srv/skedular/sync/src/Skedular/dbWrapper.php:16
+Stack trace:
+#0 /srv/skedular/sync/src/Skedular/dbWrapper.php(16): PDO->__construct('pgsql:host=127....')
+#1 /srv/skedular/sync/src/Skedular/Logic.php(12): dbWrapper->__construct()
+#2 /srv/skedular/sync/src/Skedular/Sync.php(18): Skedular\Logic->__construct()
+#3 /srv/skedular/sync/sync-server.php(16): Skedular\Sync->__construct()
+#4 {main}
+  thrown in /srv/skedular/sync/src/Skedular/dbWrapper.php on line 16
